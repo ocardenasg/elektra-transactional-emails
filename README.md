@@ -1,1 +1,1 @@
-README
+Se agregan los correos transaccionales.
