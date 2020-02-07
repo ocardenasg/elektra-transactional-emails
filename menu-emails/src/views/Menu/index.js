@@ -2,50 +2,63 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./index.module.sass";
 
+const menu = [
+  {
+    name: "ENTREGA EN TIENDA",
+    options: [
+      {
+        name: "Correo Creado",
+        url: "/correocreado"
+      },
+      {
+        name: "Correo Confirmado",
+        url: "/correocreado2"
+      },
+      {
+        name: "Correo Listo para entrega",
+        url: "/xdck2"
+      }
+    ]
+  },
+  {
+    name: "ENVIO A DOMICILIO",
+    options: [
+      {
+        name: "Correo Creado",
+        url: "/correocreado"
+      },
+      {
+        name: "Correo Confirmado",
+        url: "/xdck2"
+      },
+      {
+        name: "Correo Listo para entrega",
+        url: "/xdck2"
+      }
+    ]
+  }
+];
 const Menu = () => {
   return (
     <div id={styles.container}>
       <div id={styles.menuLeft}>
-        <ul id={styles.menuPrincipal}>
-          <li>ENTREGA EN TIENDA</li>
-          <li>
-            <a href="/correocreado">Correo Creado </a>
-            <i className={`material-icons ${styles.icon}`}>
-              keyboard_arrow_right
-            </i>
-          </li>
-          <li>
-            <a href="/">Correo Confirmado </a>
-            <i className={`material-icons ${styles.icon}`}>
-              keyboard_arrow_right
-            </i>
-          </li>
-          <li>
-            <a href="/">Correo Listo para entrega </a>
-            <i className={`material-icons ${styles.icon}`}>
-              keyboard_arrow_right
-            </i>
-          </li>
-          <li>ENVIO A DOMICILIO</li>
-          <li>
-            <a href="/">Correo Creado </a>
-            <i className={`material-icons ${styles.icon}`}>
-              keyboard_arrow_right
-            </i>
-          </li>
-          <li>
-            <a href="/">Correo Confirmado </a>
-            <i className={`material-icons ${styles.icon}`}>
-              keyboard_arrow_right
-            </i>
-          </li>
-          <li>
-            <a href="/">Correo Listo para entrega </a>
-            <i className={`material-icons ${styles.icon}`}>
-              keyboard_arrow_right
-            </i>
-          </li>
-        </ul>
+        {menu.map((val, key) => {
+          return (
+            <ul id={styles.menuPrincipal} key={key}>
+              <span>{val.name}</span>
+              {val.options.map((option, unikey) => {
+                return (
+                  <li key={unikey}>
+                    <Link to={option.url}>{option.name}</Link>
+                    <i className={`material-icons ${styles.icon}`}>
+                      keyboard_arrow_right
+                    </i>
+                  </li>
+                );
+              })}
+            </ul>
+          );
+        })}
       </div>
     </div>
   );
