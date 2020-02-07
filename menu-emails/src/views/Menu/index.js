@@ -48,12 +48,12 @@ const Menu = () => {
               <span>{val.name}</span>
               {val.options.map((option, unikey) => {
                 return (
-                  <li key={unikey}>
-                    <Link to={option.url}>{option.name}</Link>
+                  <Link to={option.url} key={unikey}>
+                    {option.name}
                     <i className={`material-icons ${styles.icon}`}>
                       keyboard_arrow_right
                     </i>
-                  </li>
+                  </Link>
                 );
               })}
             </ul>
