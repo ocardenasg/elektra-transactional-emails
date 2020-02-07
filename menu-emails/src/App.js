@@ -1,16 +1,24 @@
 import React from "react";
 import Menu from "./views/Menu";
-import Correos from "./views/Correos";
 import styles from "./index.module.sass";
-import PedidoCreado from "./views/PedidoCreado";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useParams
-} from "react-router-dom";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
+  const path = [
+    {
+      src: "/pedidoCreadoBazTienda/index.html",
+      url: "/correocreado"
+    },
+    {
+      src: "/pedidoCreadoTienda/index.html",
+      url: "/correocreado2"
+    },
+    {
+      src: "/pedidoCreadoBazTienda/index.html",
+      url: "/correocreado"
+    }
+  ];
   return (
     <Router>
       <Switch>
@@ -19,18 +27,22 @@ function App() {
             <Menu />
           </div>
         </Route>
-        <Route path="/correocreado">
-          <div className={styles.container}>
-            <Menu />
-            <iframe
-              src="/pedidoCreadoBazTienda/index.html"
-              width="60%"
-              height="auto"
-            >
-              {" "}
-            </iframe>
-          </div>
-        </Route>
+        {path.map((val, key) => {
+          return (
+            <Route path={val.url} key={key}>
+              <div className={styles.container}>
+                <Menu />
+                <iframe
+                  src={val.src}
+                  width="60%"
+                  height="1000"
+                  frameBorder="0"
+                  title="render"
+                ></iframe>
+              </div>
+            </Route>
+          );
+        })}
       </Switch>
     </Router>
   );
