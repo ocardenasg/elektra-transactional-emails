@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [resolution, setresolution] = useState(650);
+  const [desktop, setdesktop] = useState(false);
+  const [movil, setmovil] = useState(false);
+
   const path = [
     {
       src: "/pedidoCreadoBazTienda/index.html",
@@ -20,6 +23,9 @@ function App() {
       url: "/correocreado"
     }
   ];
+
+  const [tabActive, setTabActive] = useState(2);
+
   return (
     <Router>
       <Switch>
@@ -28,6 +34,7 @@ function App() {
             <Menu />
           </div>
         </Route>
+
         {path.map((val, key) => {
           return (
             <Route path={val.url} key={key}>
@@ -38,8 +45,15 @@ function App() {
                     <div
                       onClick={() => {
                         setresolution(650);
+                        setdesktop(!desktop);
+                        setTabActive(3);
+                        {
+                          movil && setmovil(!movil);
+                        }
                       }}
-                      className={`material-icons ${styles.icon}`}
+                      className={`material-icons ${styles.icon}
+                        ${(tabActive === 3 && styles.tab_active) || styles.tab}
+                      `}
                     >
                       desktop_mac
                     </div>
@@ -47,8 +61,11 @@ function App() {
                     <div
                       onClick={() => {
                         setresolution(414);
+                        setTabActive(2);
                       }}
-                      className={`material-icons ${styles.icon}`}
+                      className={`material-icons ${styles.icon}
+                      ${(tabActive === 2 && styles.tab_active) || styles.tab}
+                    `}
                     >
                       mobile_friendly
                     </div>
