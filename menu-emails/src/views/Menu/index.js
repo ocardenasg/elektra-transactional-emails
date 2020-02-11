@@ -11,12 +11,8 @@ const menu = [
         url: "/correocreado"
       },
       {
-        name: "Correo Confirmado",
-        url: "/correocreado2"
-      },
-      {
-        name: "Correo Listo para entrega",
-        url: "/xdck2"
+        name: "Correo Listo para Entrega",
+        url: "/entregaTienda"
       }
     ]
   },
@@ -25,7 +21,7 @@ const menu = [
     options: [
       {
         name: "Correo Creado",
-        url: "/correocreado"
+        url: "/correocreadoDomicilio"
       },
       {
         name: "Correo Confirmado",
