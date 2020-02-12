@@ -15,12 +15,12 @@ function App() {
       url: "/correocreado"
     },
     {
-      src: "/pedidoCreadoTienda/index.html",
-      url: "/correocreado2"
+      src: "/pedidoListoEntregaTienda/index.html",
+      url: "/entregaTienda"
     },
     {
-      src: "/pedidoCreadoBazTienda/index.html",
-      url: "/correocreado"
+      src: "/pedidoCreadoTienda/index.html",
+      url: "/correocreadoDomicilio"
     }
   ];
 
