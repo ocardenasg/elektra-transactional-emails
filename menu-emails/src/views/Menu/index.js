@@ -7,31 +7,26 @@ const menu = [
     name: "ENTREGA EN TIENDA",
     options: [
       {
-        name: "Correo Creado",
-        url: "/correocreado"
+        name: "Correo Creado BAZ",
+        url: "/correocreadobaz"
       },
       {
-        name: "Correo Listo para Entrega",
+        name: "Correo Listo para Entrega en Tienda",
         url: "/entregaTienda"
+      },
+      {
+        name: "Correo Confirmado TC/PayU",
+        url: "/correocreadotiendaTC"
+      },
+      {
+        name: "Correo Entregado  Tienda",
+        url: "/correocreadoentregadotienda"
       }
     ]
   },
   {
     name: "ENVIO A DOMICILIO",
-    options: [
-      {
-        name: "Correo Creado",
-        url: "/correocreadoDomicilio"
-      },
-      {
-        name: "Correo Confirmado",
-        url: "/xdck2"
-      },
-      {
-        name: "Correo Listo para entrega",
-        url: "/xdck2"
-      }
-    ]
+    options: []
   }
 ];
 const Menu = () => {
