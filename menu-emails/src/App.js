@@ -12,7 +12,7 @@ function App() {
   const path = [
     {
       src: "/pedidoCreadoBazTienda/index.html",
-      url: "/correocreado"
+      url: "/correocreadobaz"
     },
     {
       src: "/pedidoListoEntregaTienda/index.html",
@@ -20,7 +20,11 @@ function App() {
     },
     {
       src: "/pedidoCreadoTienda/index.html",
-      url: "/correocreadoDomicilio"
+      url: "/correocreadotiendaTC"
+    },
+    {
+      src: "/pedidoEntregadoTienda/index.html",
+      url: "/correocreadoentregadotienda"
     }
   ];
 
