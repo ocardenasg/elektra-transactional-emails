@@ -6,8 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [resolution, setresolution] = useState(650);
-  const [desktop, setdesktop] = useState(false);
-  const [movil, setmovil] = useState(false);
+  const [activeTab, setActiveTab] = useState(true);
 
   const path = [
     {
@@ -28,8 +27,6 @@ function App() {
     }
   ];
 
-  const [tabActive, setTabActive] = useState(2);
-
   return (
     <Router>
       <Switch>
@@ -49,14 +46,9 @@ function App() {
                     <div
                       onClick={() => {
                         setresolution(650);
-                        setdesktop(!desktop);
-                        setTabActive(3);
-                        {
-                          movil && setmovil(!movil);
-                        }
                       }}
                       className={`material-icons ${styles.icon}
-                        ${(tabActive === 3 && styles.tab_active) || styles.tab}
+                        ${(activeTab && styles.tab_active) || styles.tab}
                       `}
                     >
                       desktop_mac
@@ -65,10 +57,10 @@ function App() {
                     <div
                       onClick={() => {
                         setresolution(414);
-                        setTabActive(2);
+                        setActiveTab(false);
                       }}
                       className={`material-icons ${styles.icon}
-                      ${(tabActive === 2 && styles.tab_active) || styles.tab}
+                      ${(!activeTab && styles.tab_active) || styles.tab}
                     `}
                     >
                       mobile_friendly
