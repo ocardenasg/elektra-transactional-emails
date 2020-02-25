@@ -28,6 +28,10 @@ function App() {
     {
       src: "pedidoConfirmadoTiendaOriginacionCredito/index.html",
       url: "/confirmadotiendacredito"
+    },
+    {
+      src: "pedidoConfirmadoTiendaMercadoPago/index.html",
+      url: "/pedidoConfirmadotiendamercadopago"
     }
   ];
 

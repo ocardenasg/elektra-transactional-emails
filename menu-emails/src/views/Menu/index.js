@@ -11,16 +11,20 @@ const menu = [
         url: "/correocreadobaz"
       },
       {
-        name: "Correo Listo para Entrega en Tienda",
-        url: "/entregaTienda"
-      },
-      {
         name: "Correo Confirmado TC/PayU",
         url: "/correocreadotiendaTC"
       },
       {
         name: "Correo Confirmado Tienda Crédito Elektra",
         url: "/confirmadotiendacredito"
+      },
+      {
+        name: "Correo Confirmado Tienda Mercado Pago",
+        url: "/pedidoConfirmadotiendamercadopago"
+      },
+      {
+        name: "Correo Listo para Entrega en Tienda",
+        url: "/entregaTienda"
       },
       {
         name: "Correo Entregado Tienda",
