@@ -24,6 +24,10 @@ function App() {
     {
       src: "/pedidoEntregadoTienda/index.html",
       url: "/correocreadoentregadotienda"
+    },
+    {
+      src: "pedidoConfirmadoTiendaOriginacionCredito/index.html",
+      url: "/confirmadotiendacredito"
     }
   ];
 

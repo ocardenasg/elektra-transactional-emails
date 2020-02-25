@@ -19,7 +19,11 @@ const menu = [
         url: "/correocreadotiendaTC"
       },
       {
-        name: "Correo Entregado  Tienda",
+        name: "Correo Confirmado Tienda Crédito Elektra",
+        url: "/confirmadotiendacredito"
+      },
+      {
+        name: "Correo Entregado Tienda",
         url: "/correocreadoentregadotienda"
       }
     ]
