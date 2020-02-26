@@ -15,27 +15,27 @@ const menu = [
         url: "/correocreadotiendaTC"
       },
       {
-        name: "Pedido Confirmado Tienda Crédito Elektra",
+        name: "Pedido Confirmado Crédito Elektra",
         url: "/confirmadotiendacredito"
       },
       {
-        name: "Pedido Confirmado Tienda Mercado Pago",
+        name: "Pedido Confirmado Mercado Pago",
         url: "/pedidoConfirmadotiendamercadopago"
       },
       {
-        name: "Pedido Confirmado Tienda PayPal",
+        name: "Pedido Confirmado PayPal",
         url: "/pedidoConfirmadotiendapaypal"
       },
       {
-        name: "Pedido Confirmado Tienda PayU",
+        name: "Pedido Confirmado PayU",
         url: "/pedidoConfirmadotiendapayu"
       },
       {
-        name: "Pedido Listo para Entrega en Tienda",
+        name: "Pedido Listo para Entrega",
         url: "/entregaTienda"
       },
       {
-        name: "Pedido Listo para Entrega en Tienda Crédito Elektra Engache",
+        name: "Pedido Listo para Entrega Crédito Elektra Engache",
         url: "/entregaTiendaCreditoEktEnganche"
       },
       {
@@ -46,7 +46,12 @@ const menu = [
   },
   {
     name: "ENVIO A DOMICILIO",
-    options: []
+    options: [
+      {
+        name: "Pedido Confirmado OneClic",
+        url: "/confirmadOneClic"
+      }
+    ]
   }
 ];
 const Menu = () => {

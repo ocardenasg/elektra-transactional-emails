@@ -44,6 +44,10 @@ function App() {
     {
       src: "pedidoListoEntregaTiendaEktEnganche/index.html",
       url: "/entregaTiendaCreditoEktEnganche"
+    },
+    {
+      src: "confirmadoDomOneClic/index.html",
+      url: "/confirmadOneClic"
     }
   ];
 
