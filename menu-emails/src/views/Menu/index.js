@@ -27,6 +27,10 @@ const menu = [
         url: "/pedidoConfirmadotiendapaypal"
       },
       {
+        name: "Pedido Confirmado Tienda PayU",
+        url: "/pedidoConfirmadotiendapayu"
+      },
+      {
         name: "Pedido Listo para Entrega en Tienda",
         url: "/entregaTienda"
       },

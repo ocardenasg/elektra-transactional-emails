@@ -36,6 +36,10 @@ function App() {
     {
       src: "pedidoConfirmadoTiendaPaypal/index.html",
       url: "/pedidoConfirmadotiendapaypal"
+    },
+    {
+      src: "pedidoConfirmadoTiendaPayU/index.html",
+      url: "/pedidoConfirmadotiendapayu"
     }
   ];
 
