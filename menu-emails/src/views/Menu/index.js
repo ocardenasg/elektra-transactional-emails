@@ -7,27 +7,31 @@ const menu = [
     name: "ENTREGA EN TIENDA",
     options: [
       {
-        name: "Correo Creado BAZ",
+        name: "Pedido Creado BAZ",
         url: "/correocreadobaz"
       },
       {
-        name: "Correo Confirmado TC/PayU",
+        name: "Pedido Confirmado TC/PayU",
         url: "/correocreadotiendaTC"
       },
       {
-        name: "Correo Confirmado Tienda Crédito Elektra",
+        name: "Pedido Confirmado Tienda Crédito Elektra",
         url: "/confirmadotiendacredito"
       },
       {
-        name: "Correo Confirmado Tienda Mercado Pago",
+        name: "Pedido Confirmado Tienda Mercado Pago",
         url: "/pedidoConfirmadotiendamercadopago"
       },
       {
-        name: "Correo Listo para Entrega en Tienda",
+        name: "Pedido Confirmado Tienda PayPal",
+        url: "/pedidoConfirmadotiendapaypal"
+      },
+      {
+        name: "Pedido Listo para Entrega en Tienda",
         url: "/entregaTienda"
       },
       {
-        name: "Correo Entregado Tienda",
+        name: "Pedido Entregado Tienda",
         url: "/correocreadoentregadotienda"
       }
     ]

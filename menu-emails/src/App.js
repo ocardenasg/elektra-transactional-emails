@@ -32,6 +32,10 @@ function App() {
     {
       src: "pedidoConfirmadoTiendaMercadoPago/index.html",
       url: "/pedidoConfirmadotiendamercadopago"
+    },
+    {
+      src: "pedidoConfirmadoTiendaPaypal/index.html",
+      url: "/pedidoConfirmadotiendapaypal"
     }
   ];
 
