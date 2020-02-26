@@ -23,7 +23,7 @@ function App() {
     },
     {
       src: "/pedidoEntregadoTienda/index.html",
-      url: "/correocreadoentregadotienda"
+      url: "/correoentregadotienda"
     },
     {
       src: "pedidoConfirmadoTiendaOriginacionCredito/index.html",

@@ -40,7 +40,7 @@ const menu = [
       },
       {
         name: "Pedido Entregado Tienda",
-        url: "/correocreadoentregadotienda"
+        url: "/correoentregadotienda"
       }
     ]
   },
