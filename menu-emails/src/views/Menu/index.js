@@ -50,6 +50,10 @@ const menu = [
       {
         name: "Pedido Confirmado OneClic",
         url: "/confirmadOneClic"
+      },
+      {
+        name: "Pedido Enviado OneClic",
+        url: "/enviadOneClic"
       }
     ]
   }

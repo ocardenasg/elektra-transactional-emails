@@ -48,6 +48,10 @@ function App() {
     {
       src: "confirmadoDomOneClic/index.html",
       url: "/confirmadOneClic"
+    },
+    {
+      src: "enviadoOneClic/index.html",
+      url: "/enviadOneClic"
     }
   ];
 
