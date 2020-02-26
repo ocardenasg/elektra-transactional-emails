@@ -40,6 +40,10 @@ function App() {
     {
       src: "pedidoConfirmadoTiendaPayU/index.html",
       url: "/pedidoConfirmadotiendapayu"
+    },
+    {
+      src: "pedidoListoEntregaTiendaEktEnganche/index.html",
+      url: "/entregaTiendaCreditoEktEnganche"
     }
   ];
 
