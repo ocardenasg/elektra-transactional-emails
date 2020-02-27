@@ -54,6 +54,10 @@ const menu = [
       {
         name: "Pedido Enviado OneClic",
         url: "/enviadOneClic"
+      },
+      {
+        name: "Pedido Entregado OneClic",
+        url: "/pedidoEntregadoOneClic"
       }
     ]
   }

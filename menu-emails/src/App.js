@@ -52,6 +52,10 @@ function App() {
     {
       src: "enviadoOneClic/index.html",
       url: "/enviadOneClic"
+    },
+    {
+      src: "pedidoEntregadoOneClic/index.html",
+      url: "/pedidoEntregadoOneClic"
     }
   ];
 
