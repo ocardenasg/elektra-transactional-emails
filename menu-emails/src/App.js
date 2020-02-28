@@ -56,6 +56,10 @@ function App() {
     {
       src: "pedidoEntregadoOneClic/index.html",
       url: "/pedidoEntregadoOneClic"
+    },
+    {
+      src: "engancheCreditoEktTienda/index.html",
+      url: "/aprobacioncreditotienda"
     }
   ];
 

@@ -39,8 +39,12 @@ const menu = [
         url: "/entregaTiendaCreditoEktEnganche"
       },
       {
-        name: "Pedido Entregado Tienda",
+        name: "Pedido Entregado",
         url: "/correoentregadotienda"
+      },
+      {
+        name: "Aprobación de Crédito Elektra",
+        url: "/aprobacioncreditotienda"
       }
     ]
   },
