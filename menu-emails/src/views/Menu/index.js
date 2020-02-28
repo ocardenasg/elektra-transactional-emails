@@ -7,26 +7,63 @@ const menu = [
     name: "ENTREGA EN TIENDA",
     options: [
       {
-        name: "Correo Creado BAZ",
+        name: "Pedido Creado BAZ",
         url: "/correocreadobaz"
       },
       {
-        name: "Correo Listo para Entrega en Tienda",
-        url: "/entregaTienda"
-      },
-      {
-        name: "Correo Confirmado TC/PayU",
+        name: "Pedido Confirmado TC/PayU",
         url: "/correocreadotiendaTC"
       },
       {
-        name: "Correo Entregado  Tienda",
-        url: "/correocreadoentregadotienda"
+        name: "Pedido Confirmado Crédito Elektra",
+        url: "/confirmadotiendacredito"
+      },
+      {
+        name: "Pedido Confirmado Mercado Pago",
+        url: "/pedidoConfirmadotiendamercadopago"
+      },
+      {
+        name: "Pedido Confirmado PayPal",
+        url: "/pedidoConfirmadotiendapaypal"
+      },
+      {
+        name: "Pedido Confirmado PayU",
+        url: "/pedidoConfirmadotiendapayu"
+      },
+      {
+        name: "Pedido Listo para Entrega",
+        url: "/entregaTienda"
+      },
+      {
+        name: "Pedido Listo para Entrega Crédito Elektra Engache",
+        url: "/entregaTiendaCreditoEktEnganche"
+      },
+      {
+        name: "Pedido Entregado",
+        url: "/correoentregadotienda"
+      },
+      {
+        name: "Aprobación de Crédito Elektra",
+        url: "/aprobacioncreditotienda"
       }
     ]
   },
   {
     name: "ENVIO A DOMICILIO",
-    options: []
+    options: [
+      {
+        name: "Pedido Confirmado OneClic",
+        url: "/confirmadOneClic"
+      },
+      {
+        name: "Pedido Enviado OneClic",
+        url: "/enviadOneClic"
+      },
+      {
+        name: "Pedido Entregado OneClic",
+        url: "/pedidoEntregadoOneClic"
+      }
+    ]
   }
 ];
 const Menu = () => {

@@ -23,7 +23,43 @@ function App() {
     },
     {
       src: "/pedidoEntregadoTienda/index.html",
-      url: "/correocreadoentregadotienda"
+      url: "/correoentregadotienda"
+    },
+    {
+      src: "pedidoConfirmadoTiendaOriginacionCredito/index.html",
+      url: "/confirmadotiendacredito"
+    },
+    {
+      src: "pedidoConfirmadoTiendaMercadoPago/index.html",
+      url: "/pedidoConfirmadotiendamercadopago"
+    },
+    {
+      src: "pedidoConfirmadoTiendaPaypal/index.html",
+      url: "/pedidoConfirmadotiendapaypal"
+    },
+    {
+      src: "pedidoConfirmadoTiendaPayU/index.html",
+      url: "/pedidoConfirmadotiendapayu"
+    },
+    {
+      src: "pedidoListoEntregaTiendaEktEnganche/index.html",
+      url: "/entregaTiendaCreditoEktEnganche"
+    },
+    {
+      src: "confirmadoDomOneClic/index.html",
+      url: "/confirmadOneClic"
+    },
+    {
+      src: "enviadoOneClic/index.html",
+      url: "/enviadOneClic"
+    },
+    {
+      src: "pedidoEntregadoOneClic/index.html",
+      url: "/pedidoEntregadoOneClic"
+    },
+    {
+      src: "engancheCreditoEktTienda/index.html",
+      url: "/aprobacioncreditotienda"
     }
   ];
 
