@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [resolution, setresolution] = useState(650);
-  const [activeTab, setActiveTab] = useState(true);
 
   const path = [
     {
@@ -76,7 +75,7 @@ function App() {
           return (
             <Route path={val.url} key={key}>
               <div className={styles.container}>
-                <Menu />
+                <Menu keyMenu={key} />
                 <div className={styles.content}>
                   <div className={styles.containerEmail}>
                     <div
@@ -84,7 +83,8 @@ function App() {
                         setresolution(650);
                       }}
                       className={`material-icons ${styles.icon}
-                        ${(activeTab && styles.tab_active) || styles.tab}
+                        ${(resolution === 650 && styles.tab_active) ||
+                          styles.tab}
                       `}
                     >
                       desktop_mac
@@ -93,10 +93,9 @@ function App() {
                     <div
                       onClick={() => {
                         setresolution(414);
-                        setActiveTab(false);
                       }}
                       className={`material-icons ${styles.icon}
-                      ${(!activeTab && styles.tab_active) || styles.tab}
+                      ${(resolution === 414 && styles.tab_active) || styles.tab}
                     `}
                     >
                       mobile_friendly
