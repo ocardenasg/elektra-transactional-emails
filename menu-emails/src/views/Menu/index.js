@@ -60,6 +60,10 @@ const menu = [
         url: "/pedidoConfirmadoPayPal"
       },
       {
+        name: "Pedido Creado Baz Referenciado",
+        url: "/pedidoCreadoBazRef"
+      },
+      {
         name: "Pedido Enviado OneClic",
         url: "/enviadOneClic"
       },
@@ -68,12 +72,33 @@ const menu = [
         url: "/pedidoEnviadoPayPal"
       },
       {
+        name: "Pedido Enviado Baz Referenciado",
+        url: "/pedidoEnviadoBazRef"
+      },
+      {
         name: "Pedido Entregado OneClic",
         url: "/pedidoEntregadoOneClic"
       },
       {
         name: "Pedido Entregado PayPal",
         url: "/pedidoEntregadoPayPal"
+      },
+      {
+        name: "Pedido Entregado Baz Referenciado",
+        url: "/pedidoEntregadoBazDomRef"
+      }
+    ]
+  },
+  {
+    name: "ARTÍCULO DIGITAL",
+    options: [
+      {
+        name: "Pedido creado TDD/TDC",
+        url: "/confirmadoDigitalTDDTDC"
+      },
+      {
+        name: "Pedido listo TDD/TDC",
+        url: "/listoDigitalTDDTDC"
       }
     ]
   }

@@ -69,8 +69,28 @@ function App() {
       url: "/pedidoEntregadoPayPal"
     },
     {
-      src: "enviadoDomPayPal",
+      src: "enviadoDomPayPal/index.html",
       url: "/pedidoEnviadoPayPal"
+    },
+    {
+      src: "pedidoCreadoBazDomRef/index.html",
+      url: "/pedidoCreadoBazRef"
+    },
+    {
+      src: "pedidoEnviadoBazDomRef/index.html",
+      url: "/pedidoEnviadoBazRef"
+    },
+    {
+      src: "pedidoEntregadoBazDomRef/index.html",
+      url: "/pedidoEntregadoBazDomRef"
+    },
+    {
+      src: "pedidoConfirmadoDigitalTDDTDC/index.html",
+      url: "/confirmadoDigitalTDDTDC"
+    },
+    {
+      src: "pedidoListoDigital/index.html",
+      url: "/listoDigitalTDDTDC"
     }
   ];
 
