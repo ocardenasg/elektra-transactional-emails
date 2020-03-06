@@ -59,6 +59,18 @@ function App() {
     {
       src: "engancheCreditoEktTienda/index.html",
       url: "/aprobacioncreditotienda"
+    },
+    {
+      src: "pedidoConfirmadoDomPaypal/index.html",
+      url: "/pedidoConfirmadoPayPal"
+    },
+    {
+      src: "pedidoEntregadoDomPayPal/index.html",
+      url: "/pedidoEntregadoPayPal"
+    },
+    {
+      src: "enviadoDomPayPal",
+      url: "/pedidoEnviadoPayPal"
     }
   ];
 

@@ -11,23 +11,23 @@ const menu = [
         url: "/correocreadobaz"
       },
       {
-        name: "Pedido Confirmado TC/PayU",
+        name: "Pedido Creado TC/PayU",
         url: "/correocreadotiendaTC"
       },
       {
-        name: "Pedido Confirmado Crédito Elektra",
+        name: "Pedido Creado Crédito Elektra",
         url: "/confirmadotiendacredito"
       },
       {
-        name: "Pedido Confirmado Mercado Pago",
+        name: "Pedido Creado Mercado Pago",
         url: "/pedidoConfirmadotiendamercadopago"
       },
       {
-        name: "Pedido Confirmado PayPal",
+        name: "Pedido Creado PayPal",
         url: "/pedidoConfirmadotiendapaypal"
       },
       {
-        name: "Pedido Confirmado PayU",
+        name: "Pedido Creado PayU",
         url: "/pedidoConfirmadotiendapayu"
       },
       {
@@ -52,16 +52,28 @@ const menu = [
     name: "ENVIO A DOMICILIO",
     options: [
       {
-        name: "Pedido Confirmado OneClic",
+        name: "Pedido Creado OneClic",
         url: "/confirmadOneClic"
+      },
+      {
+        name: "Pedido Creado PayPal",
+        url: "/pedidoConfirmadoPayPal"
       },
       {
         name: "Pedido Enviado OneClic",
         url: "/enviadOneClic"
       },
       {
+        name: "Pedido Enviado PayPal",
+        url: "/pedidoEnviadoPayPal"
+      },
+      {
         name: "Pedido Entregado OneClic",
         url: "/pedidoEntregadoOneClic"
+      },
+      {
+        name: "Pedido Entregado PayPal",
+        url: "/pedidoEntregadoPayPal"
       }
     ]
   }
