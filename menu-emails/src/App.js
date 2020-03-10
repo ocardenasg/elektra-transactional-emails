@@ -121,12 +121,16 @@ function App() {
       url: "/confirmadotiendacreditoCE"
     },
     {
-      src: "/creditoCanceladoCE/index.html",
+      src: "/creditoCanceladoantesdentregaCE/index.html",
       url: "/canceladoEngancheAntesdeEntrega"
     },
     {
       src: "/creditoCanceladoSE/index.html",
       url: "/canceladoEngancheAntesdeEntregaSE"
+    },
+    {
+      src: "/creditoCanceladoCE/index.html",
+      url: "/cancelacionCreditoCE"
     }
   ];
 

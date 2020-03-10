@@ -74,6 +74,10 @@ const menu = [
       {
         name: "Cancelación de Crédito Elektra Antes de Entrega SE",
         url: "/canceladoEngancheAntesdeEntregaSE"
+      },
+      {
+        name: "Cancelación Crédito CE",
+        url: "/cancelacionCreditoCE"
       }
     ]
   },
