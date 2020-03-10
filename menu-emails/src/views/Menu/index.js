@@ -15,8 +15,12 @@ const menu = [
         url: "/correocreadotiendaTC"
       },
       {
-        name: "Pedido Creado Crédito Elektra",
+        name: "Pedido Creado Crédito Elektra S/E",
         url: "/confirmadotiendacredito"
+      },
+      {
+        name: "Pedido Creado Crédito Elektra C/E",
+        url: "/confirmadotiendacreditoCE"
       },
       {
         name: "Pedido Creado Mercado Pago",
@@ -35,12 +39,24 @@ const menu = [
         url: "/entregaTienda"
       },
       {
-        name: "Pedido Listo para Entrega Crédito Elektra Engache",
-        url: "/entregaTiendaCreditoEktEnganche"
+        name: "Pedido Listo para Entrega Crédito Elektra S/E",
+        url: "/entregaTiendaCreditoEktSE"
+      },
+      {
+        name: "Pedido Listo para Entrega Crédito Elektra C/E",
+        url: "/entregaTiendaCreditoEktCE"
       },
       {
         name: "Pedido Entregado",
         url: "/correoentregadotienda"
+      },
+      {
+        name: "Pedido Entregado Crédito Elektra S/E",
+        url: "/correoentregadoCreditoSE"
+      },
+      {
+        name: "Pedido Entregado Crédito Elektra C/E",
+        url: "/correoentregadoCreditoCE"
       },
       {
         name: "Aprobación de Crédito Elektra",
@@ -64,6 +80,10 @@ const menu = [
         url: "/pedidoCreadoBazRef"
       },
       {
+        name: "Pedido Creado Italika TDD/TDC",
+        url: "/pedidoCreadoItalika"
+      },
+      {
         name: "Pedido Enviado OneClic",
         url: "/enviadOneClic"
       },
@@ -76,6 +96,10 @@ const menu = [
         url: "/pedidoEnviadoBazRef"
       },
       {
+        name: "Pedido Enviado Italika TDD/TDC",
+        url: "/pedidoEnviadoItalika"
+      },
+      {
         name: "Pedido Entregado OneClic",
         url: "/pedidoEntregadoOneClic"
       },
@@ -86,6 +110,10 @@ const menu = [
       {
         name: "Pedido Entregado Baz Referenciado",
         url: "/pedidoEntregadoBazDomRef"
+      },
+      {
+        name: "Pedido Entregado Italika TDD/TDC",
+        url: "/pedidoEntregadoItalika"
       }
     ]
   },

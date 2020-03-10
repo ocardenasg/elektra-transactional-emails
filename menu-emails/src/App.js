@@ -25,6 +25,14 @@ function App() {
       url: "/correoentregadotienda"
     },
     {
+      src: "/pedidoEntregadoCreditoSE/index.html",
+      url: "/correoentregadoCreditoSE"
+    },
+    {
+      src: "/pedidoEntregadoCreditoCE/index.html",
+      url: "/correoentregadoCreditoCE"
+    },
+    {
       src: "pedidoConfirmadoTiendaOriginacionCredito/index.html",
       url: "/confirmadotiendacredito"
     },
@@ -42,7 +50,11 @@ function App() {
     },
     {
       src: "pedidoListoEntregaTiendaEktEnganche/index.html",
-      url: "/entregaTiendaCreditoEktEnganche"
+      url: "/entregaTiendaCreditoEktSE"
+    },
+    {
+      src: "pedidoListoEntregaTiendaCE/index.html",
+      url: "/entregaTiendaCreditoEktCE"
     },
     {
       src: "confirmadoDomOneClic/index.html",
@@ -91,6 +103,22 @@ function App() {
     {
       src: "pedidoListoDigital/index.html",
       url: "/listoDigitalTDDTDC"
+    },
+    {
+      src: "pedidoCreadoDomItalikaTDDTDC/index.html",
+      url: "/pedidoCreadoItalika"
+    },
+    {
+      src: "pedidoEnviadoDomitalikaTDDTDC/index.html",
+      url: "/pedidoEnviadoItalika"
+    },
+    {
+      src: "pedidoEntregadoDomitalikaTDDTDC/index.html",
+      url: "/pedidoEntregadoItalika"
+    },
+    {
+      src: "pedidoConfirmadoTiedaCE/index.html",
+      url: "/confirmadotiendacreditoCE"
     }
   ];
 
