@@ -119,6 +119,14 @@ function App() {
     {
       src: "pedidoConfirmadoTiedaCE/index.html",
       url: "/confirmadotiendacreditoCE"
+    },
+    {
+      src: "/creditoCanceladoCE/index.html",
+      url: "/canceladoEngancheAntesdeEntrega"
+    },
+    {
+      src: "/creditoCanceladoSE/index.html",
+      url: "/canceladoEngancheAntesdeEntregaSE"
     }
   ];
 
@@ -165,7 +173,7 @@ function App() {
                     <iframe
                       src={val.src}
                       width={`${resolution}px`}
-                      height="1000"
+                      height="1400"
                       frameBorder="0"
                       title="render"
                     ></iframe>

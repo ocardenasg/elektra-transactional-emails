@@ -57,10 +57,23 @@ const menu = [
       {
         name: "Pedido Entregado Crédito Elektra C/E",
         url: "/correoentregadoCreditoCE"
-      },
+      }
+    ]
+  },
+  {
+    name: "CRÉDITO ELEKTRA",
+    options: [
       {
         name: "Aprobación de Crédito Elektra",
         url: "/aprobacioncreditotienda"
+      },
+      {
+        name: "Cancelación de Crédito Elektra Antes de Entrega CE",
+        url: "/canceladoEngancheAntesdeEntrega"
+      },
+      {
+        name: "Cancelación de Crédito Elektra Antes de Entrega SE",
+        url: "/canceladoEngancheAntesdeEntregaSE"
       }
     ]
   },
