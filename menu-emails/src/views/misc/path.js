@@ -134,6 +134,10 @@ const path = [
   {
     src: "/cancelacionCreditoSASE/index.html",
     url: "/cancelacionCreditoSASE"
+  },
+  {
+    src: "pedidoCanceladoPagoReferenciado",
+    url: "/canceladoPagoreferenciado"
   }
 ];
 

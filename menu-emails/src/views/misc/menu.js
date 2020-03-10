@@ -154,6 +154,15 @@ const menu = [
         url: "/listoDigitalTDDTDC"
       }
     ]
+  },
+  {
+    name: "PAGOS REFERENCIADOS",
+    options: [
+      {
+        name: "Pedido cancelado Pago Referenciado",
+        url: "/canceladoPagoreferenciado"
+      }
+    ]
   }
 ];
 export default menu;
