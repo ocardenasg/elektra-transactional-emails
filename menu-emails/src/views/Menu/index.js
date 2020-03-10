@@ -78,6 +78,14 @@ const menu = [
       {
         name: "Cancelación Crédito CE",
         url: "/cancelacionCreditoCE"
+      },
+      {
+        name: "Pedido Cancelado con Abono",
+        url: "/pedidoCanceladoAbono"
+      },
+      {
+        name: "Pedido Cancelado con Abono y Enganche",
+        url: "/pedidoCanceladoAbonoEnganche"
       }
     ]
   },

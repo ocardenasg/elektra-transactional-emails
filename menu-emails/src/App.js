@@ -131,6 +131,14 @@ function App() {
     {
       src: "/creditoCanceladoCE/index.html",
       url: "/cancelacionCreditoCE"
+    },
+    {
+      src: "/creditoCanceladoCA/index.html",
+      url: "/pedidoCanceladoAbono"
+    },
+    {
+      src: "/creditoCanceladoCACE/index.html",
+      url: "/pedidoCanceladoAbonoEnganche"
     }
   ];
 
