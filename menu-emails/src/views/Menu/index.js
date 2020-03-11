@@ -1,9 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import styles from "./index.module.sass";
+import { NavLink } from "react-router-dom";
+
 import menu from "../misc/menu";
 
-const Menu = () => {
+import styles from "./index.module.sass";
+
+export default function Menu() {
   return (
     <div id={styles.container}>
       <div id={styles.menuLeft}>
@@ -11,14 +13,18 @@ const Menu = () => {
           return (
             <ul id={styles.menuPrincipal} key={key}>
               <span>{val.name}</span>
-              {val.options.map((option, unikey) => {
+              {val.links.map((option, index) => {
                 return (
-                  <Link to={option.url} key={unikey}>
+                  <NavLink
+                    key={index}
+                    to={option.url}
+                    activeClassName={styles.active}
+                  >
                     {option.name}
                     <i className={`material-icons ${styles.icon}`}>
                       keyboard_arrow_right
                     </i>
-                  </Link>
+                  </NavLink>
                 );
               })}
             </ul>
@@ -27,6 +33,4 @@ const Menu = () => {
       </div>
     </div>
   );
-};
-
-export default Menu;
+}
