@@ -143,6 +143,42 @@ export default [
       {
         name: "Cancelación pago con TDD/TDC",
         url: "/htmls/cancelacionPagoConTarjeta"
+      },
+      {
+        name: "Creado PayU a domicilio",
+        url: "/htmls/pedidoCreadoPayUDomicilio"
+      },
+      {
+        name: "Enviado PayU a domicilio",
+        url: "/htmls/pedidoEnviadoPayUDomicilio"
+      },
+      {
+        name: "Entregado PayU a domicilio",
+        url: "/htmls/pedidoEntregadoPayUDomicilio"
+      },
+      {
+        name: "Azteca Pay confirmado a domicilio",
+        url: "/htmls/aztecaPayConfirmadoDom"
+      },
+      {
+        name: "Azteca Pay enviado a domicilio",
+        url: "/htmls/aztecaPayEnviadoDom"
+      },
+      {
+        name: "Azteca Pay entregado a domicilio",
+        url: "/htmls/aztecaPayEntregadoDom"
+      },
+      {
+        name: "MercadoPago confirmado a domicilio",
+        url: "/htmls/mercadoPagoCreadoDomicilio"
+      },
+      {
+        name: "MercadoPago enviado a domicilio",
+        url: "/htmls/mercadoPagoEnviadoDomicilio"
+      },
+      {
+        name: "MercadoPago entregado a domicilio",
+        url: "/htmls/mercadoPagoEntregadoDomicilio"
       }
     ]
   },
