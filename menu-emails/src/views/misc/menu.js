@@ -179,6 +179,58 @@ export default [
       {
         name: "MercadoPago entregado a domicilio",
         url: "/htmls/mercadoPagoEntregadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Confirmado a domicilio",
+        url: "/htmls/creditoRecompraConfirmadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enviado a domicilio",
+        url: "/htmls/creditoRecompraEnviadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Entregado a domicilio",
+        url: "/htmls/creditoRecompraEntregadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enganche Confirmado a domicilio",
+        url: "/htmls/creditoRecompraEngancheConfirmadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enganche Enviado a domicilio",
+        url: "/htmls/creditoRecompraEngancheEnviadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enganche Entregado a domicilio",
+        url: "/htmls/creditoRecompraEngancheEntregadoDomicilio"
+      },
+      {
+        name: "Originación Confirmado a domicilio",
+        url: "/htmls/originacionConfirmadoDomicilio"
+      },
+      {
+        name: "Originación Enviado a domicilio",
+        url: "/htmls/originacionEnviadoDomicilio"
+      },
+      {
+        name: "Originación Entregado a domicilio",
+        url: "/htmls/originacionEntregadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Confirmado a domicilio",
+        url: "/htmls/originacionEngancheConfirmadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Enviado a domicilio",
+        url: "/htmls/originacionEngancheEnviadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Entregado a domicilio",
+        url: "/htmls/originacionEngancheEntregadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Referencia a domicilio",
+        url: "/htmls/originacionEngancheReferenciaDomicilio"
       }
     ]
   },
