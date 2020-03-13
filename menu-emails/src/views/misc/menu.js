@@ -179,6 +179,30 @@ export default [
       {
         name: "MercadoPago entregado a domicilio",
         url: "/htmls/mercadoPagoEntregadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Confirmado a domicilio",
+        url: "/htmls/creditoRecompraConfirmadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enviado a domicilio",
+        url: "/htmls/creditoRecompraEnviadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Entregado a domicilio",
+        url: "/htmls/creditoRecompraEntregadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enganche Confirmado a domicilio",
+        url: "/htmls/creditoRecompraEngancheConfirmadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enganche Enviado a domicilio",
+        url: "/htmls/creditoRecompraEngancheEnviadoDomicilio"
+      },
+      {
+        name: "Crédito Elektra Enganche Entregado a domicilio",
+        url: "/htmls/creditoRecompraEngancheEntregadoDomicilio"
       }
     ]
   },
