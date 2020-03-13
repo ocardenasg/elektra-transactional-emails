@@ -203,6 +203,34 @@ export default [
       {
         name: "Crédito Elektra Enganche Entregado a domicilio",
         url: "/htmls/creditoRecompraEngancheEntregadoDomicilio"
+      },
+      {
+        name: "Originación Confirmado a domicilio",
+        url: "/htmls/originacionConfirmadoDomicilio"
+      },
+      {
+        name: "Originación Enviado a domicilio",
+        url: "/htmls/originacionEnviadoDomicilio"
+      },
+      {
+        name: "Originación Entregado a domicilio",
+        url: "/htmls/originacionEntregadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Confirmado a domicilio",
+        url: "/htmls/originacionEngancheConfirmadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Enviado a domicilio",
+        url: "/htmls/originacionEngancheEnviadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Entregado a domicilio",
+        url: "/htmls/originacionEngancheEntregadoDomicilio"
+      },
+      {
+        name: "Originación Enganche Referencia a domicilio",
+        url: "/htmls/originacionEngancheReferenciaDomicilio"
       }
     ]
   },
