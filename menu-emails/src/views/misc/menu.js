@@ -39,6 +39,14 @@ export default [
         url: "/htmls/pedidoConfirmadoTiendaPayU"
       },
       {
+        name: "Pedido Creado App BAZ",
+        url: "/htmls/pedidoCreadoAppBAZ"
+      },
+      {
+        name: "Pedido Listo para Entrega App BAZ",
+        url: "/htmls/pedidoListoEntregaTiendaAppBAZ"
+      },
+      {
         name: "Pedido Listo para Entrega",
         url: "/htmls/pedidoListoEntregaTienda"
       },
@@ -61,6 +69,10 @@ export default [
       {
         name: "Pedido Entregado",
         url: "/htmls/pedidoEntregadoTienda"
+      },
+      {
+        name: "Pedido Entregado App Baz",
+        url: "/htmls/pedidoEntregadoTiendaAppBaz"
       },
       {
         name: "Pedido Entregado Crédito Elektra S/E",
@@ -141,6 +153,10 @@ export default [
         url: "/htmls/pedidoConfirmadoDomTDDTDCSellers"
       },
       {
+        name: "Pedido Creado App BAZ",
+        url: "/htmls/pedidoCreadoDomAppBAZ"
+      },
+      {
         name: "Pedido Enviado OneClic",
         url: "/htmls/enviadoOneClic"
       },
@@ -165,6 +181,10 @@ export default [
         url: "/htmls/enviadoDomTDDTDCVariosSeller"
       },
       {
+        name: "Pedido Enviado App BAZ",
+        url: "/htmls/pedidoEnviadoAppBAZDom"
+      },
+      {
         name: "Pedido Entregado OneClic",
         url: "/htmls/pedidoEntregadoOneClic"
       },
@@ -187,6 +207,10 @@ export default [
       {
         name: "Pedido Entregado TDD/TDC Varios Sellers",
         url: "/htmls/entregadoDomTDDTDCVariosSellers"
+      },
+      {
+        name: "Pedido Entregado App BAZ",
+        url: "/htmls/pedidoEntregadoAppBazDom"
       },
       {
         name: "Cancelación pago con TDD/TDC",
