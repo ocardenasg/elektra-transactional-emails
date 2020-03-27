@@ -15,6 +15,14 @@ export default [
         url: "/htmls/pedidoConfirmadoTiendaOriginacionCredito"
       },
       {
+        name: "Pedido Creado Recompra Crédito Elektra S/E",
+        url: "/htmls/pedidoConfirmadoTiendaRecompraCreditoSE"
+      },
+      {
+        name: "Pedido Creado Recompra Crédito Elektra C/E",
+        url: "/htmls/pedidoConfirmadoTiendaRecompraCreditoCE"
+      },
+      {
         name: "Pedido Creado Crédito Elektra C/E",
         url: "/htmls/pedidoConfirmadoTiedaCE"
       },
@@ -39,6 +47,14 @@ export default [
         url: "/htmls/pedidoListoEntregaTiendaEktEnganche"
       },
       {
+        name: "Pedido Listo para Entrega Recompra Crédito Elektra S/E",
+        url: "/htmls/pedidoListoEntregaTiendaCreditoRecompraSE"
+      },
+      {
+        name: "Pedido Listo para Entrega Recompra Crédito Elektra C/E",
+        url: "/htmls/pedidoListoEntregaTiendaCreditoRecompraCE"
+      },
+      {
         name: "Pedido Listo para Entrega Crédito Elektra C/E",
         url: "/htmls/pedidoListoEntregaTiendaCE"
       },
@@ -49,6 +65,14 @@ export default [
       {
         name: "Pedido Entregado Crédito Elektra S/E",
         url: "/htmls/pedidoEntregadoCreditoSE"
+      },
+      {
+        name: "Pedido Entregado Crédito Elektra Recompra S/E",
+        url: "/htmls/pedidoEntregadoRecompraCreditoSE"
+      },
+      {
+        name: "Pedido Entregado Crédito Elektra Recompra C/E",
+        url: "/htmls/pedidoEntregadoRecompraCreditoCE"
       },
       {
         name: "Pedido Entregado Crédito Elektra C/E",
