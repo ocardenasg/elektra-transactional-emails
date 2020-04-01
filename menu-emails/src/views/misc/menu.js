@@ -15,6 +15,14 @@ export default [
         url: "/htmls/pedidoConfirmadoTiendaOriginacionCredito"
       },
       {
+        name: "Pedido Creado Recompra Crédito Elektra S/E",
+        url: "/htmls/pedidoConfirmadoTiendaRecompraCreditoSE"
+      },
+      {
+        name: "Pedido Creado Recompra Crédito Elektra C/E",
+        url: "/htmls/pedidoConfirmadoTiendaRecompraCreditoCE"
+      },
+      {
         name: "Pedido Creado Crédito Elektra C/E",
         url: "/htmls/pedidoConfirmadoTiedaCE"
       },
@@ -31,12 +39,28 @@ export default [
         url: "/htmls/pedidoConfirmadoTiendaPayU"
       },
       {
+        name: "Pedido Creado App BAZ",
+        url: "/htmls/pedidoCreadoAppBAZ"
+      },
+      {
+        name: "Pedido Listo para Entrega App BAZ",
+        url: "/htmls/pedidoListoEntregaTiendaAppBAZ"
+      },
+      {
         name: "Pedido Listo para Entrega",
         url: "/htmls/pedidoListoEntregaTienda"
       },
       {
         name: "Pedido Listo para Entrega Crédito Elektra S/E",
         url: "/htmls/pedidoListoEntregaTiendaEktEnganche"
+      },
+      {
+        name: "Pedido Listo para Entrega Recompra Crédito Elektra S/E",
+        url: "/htmls/pedidoListoEntregaTiendaCreditoRecompraSE"
+      },
+      {
+        name: "Pedido Listo para Entrega Recompra Crédito Elektra C/E",
+        url: "/htmls/pedidoListoEntregaTiendaCreditoRecompraCE"
       },
       {
         name: "Pedido Listo para Entrega Crédito Elektra C/E",
@@ -47,8 +71,20 @@ export default [
         url: "/htmls/pedidoEntregadoTienda"
       },
       {
+        name: "Pedido Entregado App Baz",
+        url: "/htmls/pedidoEntregadoTiendaAppBaz"
+      },
+      {
         name: "Pedido Entregado Crédito Elektra S/E",
         url: "/htmls/pedidoEntregadoCreditoSE"
+      },
+      {
+        name: "Pedido Entregado Crédito Elektra Recompra S/E",
+        url: "/htmls/pedidoEntregadoRecompraCreditoSE"
+      },
+      {
+        name: "Pedido Entregado Crédito Elektra Recompra C/E",
+        url: "/htmls/pedidoEntregadoRecompraCreditoCE"
       },
       {
         name: "Pedido Entregado Crédito Elektra C/E",
@@ -109,6 +145,18 @@ export default [
         url: "/htmls/pedidoCreadoDomItalikaTDDTDC"
       },
       {
+        name: "Pedido Creado TDD/TDC 1 Seller",
+        url: "/htmls/pedidoCreadoDomTDDTDCSeller"
+      },
+      {
+        name: "Pedido Creado TDD/TDC Varios Sellers",
+        url: "/htmls/pedidoConfirmadoDomTDDTDCSellers"
+      },
+      {
+        name: "Pedido Creado App BAZ",
+        url: "/htmls/pedidoCreadoDomAppBAZ"
+      },
+      {
         name: "Pedido Enviado OneClic",
         url: "/htmls/enviadoOneClic"
       },
@@ -117,12 +165,24 @@ export default [
         url: "/htmls/enviadoDomPayPal"
       },
       {
+        name: "Pedido Enviado TDD/TDC 1 Seller",
+        url: "/htmls/enviadoDomTDDTDCSeller"
+      },
+      {
         name: "Pedido Enviado Baz Referenciado",
         url: "/htmls/pedidoEnviadoBazDomRef"
       },
       {
         name: "Pedido Enviado Italika TDD/TDC",
         url: "/htmls/pedidoEnviadoDomitalikaTDDTDC"
+      },
+      {
+        name: "Pedido Enviado TDD/TDC Varios Sellers",
+        url: "/htmls/enviadoDomTDDTDCVariosSeller"
+      },
+      {
+        name: "Pedido Enviado App BAZ",
+        url: "/htmls/pedidoEnviadoAppBAZDom"
       },
       {
         name: "Pedido Entregado OneClic",
@@ -139,6 +199,18 @@ export default [
       {
         name: "Pedido Entregado Italika TDD/TDC",
         url: "/htmls/pedidoEntregadoDomitalikaTDDTDC"
+      },
+      {
+        name: "Pedido Entregado TDD/TDC 1 Seller",
+        url: "/htmls/entregadoDomTDDTDCSeller"
+      },
+      {
+        name: "Pedido Entregado TDD/TDC Varios Sellers",
+        url: "/htmls/entregadoDomTDDTDCVariosSellers"
+      },
+      {
+        name: "Pedido Entregado App BAZ",
+        url: "/htmls/pedidoEntregadoAppBazDom"
       },
       {
         name: "Cancelación pago con TDD/TDC",
