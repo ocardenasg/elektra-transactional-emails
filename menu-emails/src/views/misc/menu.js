@@ -327,5 +327,26 @@ export default [
         url: "/htmls/pedidoCanceladoPagoReferenciado"
       }
     ]
+  },
+  {
+    name: "Uber",
+    links: [
+      {
+        name: "Uber verde",
+        url: "/htmls/uberVerde"
+      },
+      {
+        name: "Uber amarillo",
+        url: "/htmls/uberAmarillo"
+      },
+      {
+        name: "Uber gris",
+        url: "/htmls/uberGris"
+      },
+      {
+        name: "Uber negro",
+        url: "/htmls/uberNegro"
+      }
+    ]
   }
 ];
