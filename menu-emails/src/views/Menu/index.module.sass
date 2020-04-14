@@ -1,42 +1,46 @@
 #menuPrincipal
-  background-color: #ffffff
-  font-size: 16px
-  font-weight: 600
-  border: 1px solid #f4f4f4
-  width: 285px
-  margin-right: 24px
   display: flex
+  font-size: 14px
+  font-weight: 600
+  padding-left: 10px
+  text-decoration: none
   flex-direction: column
-  
-  a   
-    background-color: #ffffff
-    height: 44px
+  background-color: #ffffff
+  border: 1px solid #f4f4f4
+  ul
+    margin: 0
+    padding: 0
     text-decoration: none
-    justify-content: space-between
-    padding: 0px 14px
-    cursor: pointer
+  span
+    padding: 20px 10px
+    background-color: #cecece
+
+  a
+    height: 44px
     display: flex
+    cursor: pointer
+    padding: 0px 14px
     align-items: center
+    text-decoration: none
+    background-color: #ffffff
+    justify-content: space-between
     &:hover
       background-color: #f4f4f4
       color: #fe1d00
       a
        color: #fe1d00
-    
-
-.menuPrincipal
-  text-decoration: none
-  lu 
-    text-decoration: none
 
 #menuLeft
+  position: fixed
+  height: 100%
+  overflow-y: scroll
   a
    text-decoration: none
    color: #666666
-   padding: 2px 7px 3px 10px 
+   padding: 2px 7px 3px 10px
+   &.active
+     background-color: #fede00
 
-
-  
 .title
   color: #333333
   font-size: 16px
