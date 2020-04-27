@@ -11,6 +11,9 @@
 # production
 /build
 
+# staging
+/stage
+
 # misc
 .DS_Store
 .env.local
@@ -21,3 +24,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+TODO
+.idea
+yarn.lock
+.vscode
