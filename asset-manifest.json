@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/elektra-transactional-emails/static/css/main.f31e4a71.chunk.css",
+    "main.js": "/elektra-transactional-emails/static/js/main.36147204.chunk.js",
+    "main.js.map": "/elektra-transactional-emails/static/js/main.36147204.chunk.js.map",
+    "runtime-main.js": "/elektra-transactional-emails/static/js/runtime-main.917ca45e.js",
+    "runtime-main.js.map": "/elektra-transactional-emails/static/js/runtime-main.917ca45e.js.map",
+    "static/js/2.77a88206.chunk.js": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js",
+    "static/js/2.77a88206.chunk.js.map": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js.map",
+    "index.html": "/elektra-transactional-emails/index.html",
+    "precache-manifest.4b9b466d9eda500d0d8c361cb5b1efcf.js": "/elektra-transactional-emails/precache-manifest.4b9b466d9eda500d0d8c361cb5b1efcf.js",
+    "service-worker.js": "/elektra-transactional-emails/service-worker.js",
+    "static/css/main.f31e4a71.chunk.css.map": "/elektra-transactional-emails/static/css/main.f31e4a71.chunk.css.map",
+    "static/js/2.77a88206.chunk.js.LICENSE.txt": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.917ca45e.js",
+    "static/js/2.77a88206.chunk.js",
+    "static/css/main.f31e4a71.chunk.css",
+    "static/js/main.36147204.chunk.js"
+  ]
+}
