@@ -4,349 +4,349 @@ export default [
     links: [
       {
         name: "Pedido Creado BAZ",
-        url: "/htmls/pedidoCreadoBazTienda"
+        url: "pedidoCreadoBazTienda",
       },
       {
         name: "Pedido Creado TC/PayU",
-        url: "/htmls/pedidoCreadoTienda"
+        url: "pedidoCreadoTienda",
       },
       {
         name: "Pedido Creado Crédito Elektra S/E",
-        url: "/htmls/pedidoConfirmadoTiendaOriginacionCredito"
+        url: "pedidoConfirmadoTiendaOriginacionCredito",
       },
       {
         name: "Pedido Creado Recompra Crédito Elektra S/E",
-        url: "/htmls/pedidoConfirmadoTiendaRecompraCreditoSE"
+        url: "pedidoConfirmadoTiendaRecompraCreditoSE",
       },
       {
         name: "Pedido Creado Recompra Crédito Elektra C/E",
-        url: "/htmls/pedidoConfirmadoTiendaRecompraCreditoCE"
+        url: "pedidoConfirmadoTiendaRecompraCreditoCE",
       },
       {
         name: "Pedido Creado Crédito Elektra C/E",
-        url: "/htmls/pedidoConfirmadoTiedaCE"
+        url: "pedidoConfirmadoTiedaCE",
       },
       {
         name: "Pedido Creado Mercado Pago",
-        url: "/htmls/pedidoConfirmadoTiendaMercadoPago"
+        url: "pedidoConfirmadoTiendaMercadoPago",
       },
       {
         name: "Pedido Creado PayPal",
-        url: "/htmls/pedidoConfirmadoTiendaPaypal"
+        url: "pedidoConfirmadoTiendaPaypal",
       },
       {
         name: "Pedido Creado PayU",
-        url: "/htmls/pedidoConfirmadoTiendaPayU"
+        url: "pedidoConfirmadoTiendaPayU",
       },
       {
         name: "Pedido Creado App BAZ",
-        url: "/htmls/pedidoCreadoAppBAZ"
+        url: "pedidoCreadoAppBAZ",
       },
       {
         name: "Pedido Listo para Entrega App BAZ",
-        url: "/htmls/pedidoListoEntregaTiendaAppBAZ"
+        url: "pedidoListoEntregaTiendaAppBAZ",
       },
       {
         name: "Pedido Listo para Entrega",
-        url: "/htmls/pedidoListoEntregaTienda"
+        url: "pedidoListoEntregaTienda",
       },
       {
         name: "Pedido Listo para Entrega Crédito Elektra S/E",
-        url: "/htmls/pedidoListoEntregaTiendaEktEnganche"
+        url: "pedidoListoEntregaTiendaEktEnganche",
       },
       {
         name: "Pedido Listo para Entrega Recompra Crédito Elektra S/E",
-        url: "/htmls/pedidoListoEntregaTiendaCreditoRecompraSE"
+        url: "pedidoListoEntregaTiendaCreditoRecompraSE",
       },
       {
         name: "Pedido Listo para Entrega Recompra Crédito Elektra C/E",
-        url: "/htmls/pedidoListoEntregaTiendaCreditoRecompraCE"
+        url: "pedidoListoEntregaTiendaCreditoRecompraCE",
       },
       {
         name: "Pedido Listo para Entrega Crédito Elektra C/E",
-        url: "/htmls/pedidoListoEntregaTiendaCE"
+        url: "pedidoListoEntregaTiendaCE",
       },
       {
         name: "Pedido Entregado",
-        url: "/htmls/pedidoEntregadoTienda"
+        url: "pedidoEntregadoTienda",
       },
       {
         name: "Pedido Entregado App Baz",
-        url: "/htmls/pedidoEntregadoTiendaAppBaz"
+        url: "pedidoEntregadoTiendaAppBaz",
       },
       {
         name: "Pedido Entregado Crédito Elektra S/E",
-        url: "/htmls/pedidoEntregadoCreditoSE"
+        url: "pedidoEntregadoCreditoSE",
       },
       {
         name: "Pedido Entregado Crédito Elektra Recompra S/E",
-        url: "/htmls/pedidoEntregadoRecompraCreditoSE"
+        url: "pedidoEntregadoRecompraCreditoSE",
       },
       {
         name: "Pedido Entregado Crédito Elektra Recompra C/E",
-        url: "/htmls/pedidoEntregadoRecompraCreditoCE"
+        url: "pedidoEntregadoRecompraCreditoCE",
       },
       {
         name: "Pedido Entregado Crédito Elektra C/E",
-        url: "/htmls/pedidoEntregadoCreditoCE"
-      }
-    ]
+        url: "pedidoEntregadoCreditoCE",
+      },
+    ],
   },
   {
     name: "CRÉDITO ELEKTRA",
     links: [
       {
         name: "Aprobación de Crédito Elektra",
-        url: "/htmls/engancheCreditoEktTienda"
+        url: "engancheCreditoEktTienda",
       },
       {
         name: "Cancelación de Crédito Elektra Antes de Entrega CE",
-        url: "/htmls/creditoCanceladoantesdentregaCE"
+        url: "creditoCanceladoantesdentregaCE",
       },
       {
         name: "Cancelación de Crédito Elektra Antes de Entrega SE",
-        url: "/htmls/creditoCanceladoSE"
+        url: "creditoCanceladoSE",
       },
       {
         name: "Cancelación Crédito CE",
-        url: "/htmls/creditoCanceladoCE"
+        url: "creditoCanceladoCE",
       },
       {
         name: "Cancelación Crédito sin Abono y Enganche",
-        url: "/htmls/cancelacionCreditoSASE"
+        url: "cancelacionCreditoSASE",
       },
       {
         name: "Pedido Cancelado con Abono",
-        url: "/htmls/creditoCanceladoCA"
+        url: "creditoCanceladoCA",
       },
       {
         name: "Pedido Cancelado con Abono y Enganche",
-        url: "/htmls/creditoCanceladoCACE"
-      }
-    ]
+        url: "creditoCanceladoCACE",
+      },
+    ],
   },
   {
     name: "ENVIO A DOMICILIO",
     links: [
       {
         name: "Pedido Creado OneClic",
-        url: "/htmls/confirmadoDomOneClic"
+        url: "confirmadoDomOneClic",
       },
       {
         name: "Pedido Creado PayPal",
-        url: "/htmls/pedidoConfirmadoDomPaypal"
+        url: "pedidoConfirmadoDomPaypal",
       },
       {
         name: "Pedido Creado Baz Referenciado",
-        url: "/htmls/pedidoCreadoBazDomRef"
+        url: "pedidoCreadoBazDomRef",
       },
       {
         name: "Pedido Creado Italika TDD/TDC",
-        url: "/htmls/pedidoCreadoDomItalikaTDDTDC"
+        url: "pedidoCreadoDomItalikaTDDTDC",
       },
       {
         name: "Pedido Creado TDD/TDC 1 Seller",
-        url: "/htmls/pedidoCreadoDomTDDTDCSeller"
+        url: "pedidoCreadoDomTDDTDCSeller",
       },
       {
         name: "Pedido Creado TDD/TDC Varios Sellers",
-        url: "/htmls/pedidoConfirmadoDomTDDTDCSellers"
+        url: "pedidoConfirmadoDomTDDTDCSellers",
       },
       {
         name: "Pedido Creado App BAZ",
-        url: "/htmls/pedidoCreadoDomAppBAZ"
+        url: "pedidoCreadoDomAppBAZ",
       },
       {
         name: "Pedido Enviado OneClic",
-        url: "/htmls/enviadoOneClic"
+        url: "enviadoOneClic",
       },
       {
         name: "Pedido Enviado PayPal",
-        url: "/htmls/enviadoDomPayPal"
+        url: "enviadoDomPayPal",
       },
       {
         name: "Pedido Enviado TDD/TDC 1 Seller",
-        url: "/htmls/enviadoDomTDDTDCSeller"
+        url: "enviadoDomTDDTDCSeller",
       },
       {
         name: "Pedido Enviado Baz Referenciado",
-        url: "/htmls/pedidoEnviadoBazDomRef"
+        url: "pedidoEnviadoBazDomRef",
       },
       {
         name: "Pedido Enviado Italika TDD/TDC",
-        url: "/htmls/pedidoEnviadoDomitalikaTDDTDC"
+        url: "pedidoEnviadoDomitalikaTDDTDC",
       },
       {
         name: "Pedido Enviado TDD/TDC Varios Sellers",
-        url: "/htmls/enviadoDomTDDTDCVariosSeller"
+        url: "enviadoDomTDDTDCVariosSeller",
       },
       {
         name: "Pedido Enviado App BAZ",
-        url: "/htmls/pedidoEnviadoAppBAZDom"
+        url: "pedidoEnviadoAppBAZDom",
       },
       {
         name: "Pedido Entregado OneClic",
-        url: "/htmls/pedidoEntregadoOneClic"
+        url: "pedidoEntregadoOneClic",
       },
       {
         name: "Pedido Entregado PayPal",
-        url: "/htmls/pedidoEntregadoDomPayPal"
+        url: "pedidoEntregadoDomPayPal",
       },
       {
         name: "Pedido Entregado Baz Referenciado",
-        url: "/htmls/pedidoEntregadoBazDomRef"
+        url: "pedidoEntregadoBazDomRef",
       },
       {
         name: "Pedido Entregado Italika TDD/TDC",
-        url: "/htmls/pedidoEntregadoDomitalikaTDDTDC"
+        url: "pedidoEntregadoDomitalikaTDDTDC",
       },
       {
         name: "Pedido Entregado TDD/TDC 1 Seller",
-        url: "/htmls/entregadoDomTDDTDCSeller"
+        url: "entregadoDomTDDTDCSeller",
       },
       {
         name: "Pedido Entregado TDD/TDC Varios Sellers",
-        url: "/htmls/entregadoDomTDDTDCVariosSellers"
+        url: "entregadoDomTDDTDCVariosSellers",
       },
       {
         name: "Pedido Entregado App BAZ",
-        url: "/htmls/pedidoEntregadoAppBazDom"
+        url: "pedidoEntregadoAppBazDom",
       },
       {
         name: "Cancelación pago con TDD/TDC",
-        url: "/htmls/cancelacionPagoConTarjeta"
+        url: "cancelacionPagoConTarjeta",
       },
       {
         name: "Creado PayU a domicilio",
-        url: "/htmls/pedidoCreadoPayUDomicilio"
+        url: "pedidoCreadoPayUDomicilio",
       },
       {
         name: "Enviado PayU a domicilio",
-        url: "/htmls/pedidoEnviadoPayUDomicilio"
+        url: "pedidoEnviadoPayUDomicilio",
       },
       {
         name: "Entregado PayU a domicilio",
-        url: "/htmls/pedidoEntregadoPayUDomicilio"
+        url: "pedidoEntregadoPayUDomicilio",
       },
       {
         name: "Azteca Pay confirmado a domicilio",
-        url: "/htmls/aztecaPayConfirmadoDom"
+        url: "aztecaPayConfirmadoDom",
       },
       {
         name: "Azteca Pay enviado a domicilio",
-        url: "/htmls/aztecaPayEnviadoDom"
+        url: "aztecaPayEnviadoDom",
       },
       {
         name: "Azteca Pay entregado a domicilio",
-        url: "/htmls/aztecaPayEntregadoDom"
+        url: "aztecaPayEntregadoDom",
       },
       {
         name: "MercadoPago confirmado a domicilio",
-        url: "/htmls/mercadoPagoCreadoDomicilio"
+        url: "mercadoPagoCreadoDomicilio",
       },
       {
         name: "MercadoPago enviado a domicilio",
-        url: "/htmls/mercadoPagoEnviadoDomicilio"
+        url: "mercadoPagoEnviadoDomicilio",
       },
       {
         name: "MercadoPago entregado a domicilio",
-        url: "/htmls/mercadoPagoEntregadoDomicilio"
+        url: "mercadoPagoEntregadoDomicilio",
       },
       {
         name: "Crédito Elektra Confirmado a domicilio",
-        url: "/htmls/creditoRecompraConfirmadoDomicilio"
+        url: "creditoRecompraConfirmadoDomicilio",
       },
       {
         name: "Crédito Elektra Enviado a domicilio",
-        url: "/htmls/creditoRecompraEnviadoDomicilio"
+        url: "creditoRecompraEnviadoDomicilio",
       },
       {
         name: "Crédito Elektra Entregado a domicilio",
-        url: "/htmls/creditoRecompraEntregadoDomicilio"
+        url: "creditoRecompraEntregadoDomicilio",
       },
       {
         name: "Crédito Elektra Enganche Confirmado a domicilio",
-        url: "/htmls/creditoRecompraEngancheConfirmadoDomicilio"
+        url: "creditoRecompraEngancheConfirmadoDomicilio",
       },
       {
         name: "Crédito Elektra Enganche Enviado a domicilio",
-        url: "/htmls/creditoRecompraEngancheEnviadoDomicilio"
+        url: "creditoRecompraEngancheEnviadoDomicilio",
       },
       {
         name: "Crédito Elektra Enganche Entregado a domicilio",
-        url: "/htmls/creditoRecompraEngancheEntregadoDomicilio"
+        url: "creditoRecompraEngancheEntregadoDomicilio",
       },
       {
         name: "Originación Confirmado a domicilio",
-        url: "/htmls/originacionConfirmadoDomicilio"
+        url: "originacionConfirmadoDomicilio",
       },
       {
         name: "Originación Enviado a domicilio",
-        url: "/htmls/originacionEnviadoDomicilio"
+        url: "originacionEnviadoDomicilio",
       },
       {
         name: "Originación Entregado a domicilio",
-        url: "/htmls/originacionEntregadoDomicilio"
+        url: "originacionEntregadoDomicilio",
       },
       {
         name: "Originación Enganche Confirmado a domicilio",
-        url: "/htmls/originacionEngancheConfirmadoDomicilio"
+        url: "originacionEngancheConfirmadoDomicilio",
       },
       {
         name: "Originación Enganche Enviado a domicilio",
-        url: "/htmls/originacionEngancheEnviadoDomicilio"
+        url: "originacionEngancheEnviadoDomicilio",
       },
       {
         name: "Originación Enganche Entregado a domicilio",
-        url: "/htmls/originacionEngancheEntregadoDomicilio"
+        url: "originacionEngancheEntregadoDomicilio",
       },
       {
         name: "Originación Enganche Referencia a domicilio",
-        url: "/htmls/originacionEngancheReferenciaDomicilio"
-      }
-    ]
+        url: "originacionEngancheReferenciaDomicilio",
+      },
+    ],
   },
   {
     name: "ARTÍCULO DIGITAL",
     links: [
       {
         name: "Pedido creado TDD/TDC",
-        url: "/htmls/pedidoConfirmadoDigitalTDDTDC"
+        url: "pedidoConfirmadoDigitalTDDTDC",
       },
       {
         name: "Pedido listo TDD/TDC",
-        url: "/htmls/pedidoListoDigital"
-      }
-    ]
+        url: "pedidoListoDigital",
+      },
+    ],
   },
   {
     name: "PAGOS REFERENCIADOS",
     links: [
       {
         name: "Pedido cancelado Pago Referenciado",
-        url: "/htmls/pedidoCanceladoPagoReferenciado"
-      }
-    ]
+        url: "pedidoCanceladoPagoReferenciado",
+      },
+    ],
   },
   {
     name: "Uber",
     links: [
       {
         name: "Uber verde",
-        url: "/htmls/uberVerde"
+        url: "uberVerde",
       },
       {
         name: "Uber amarillo",
-        url: "/htmls/uberAmarillo"
+        url: "uberAmarillo",
       },
       {
         name: "Uber gris",
-        url: "/htmls/uberGris"
+        url: "uberGris",
       },
       {
         name: "Uber negro",
-        url: "/htmls/uberNegro"
-      }
-    ]
-  }
+        url: "uberNegro",
+      },
+    ],
+  },
 ];

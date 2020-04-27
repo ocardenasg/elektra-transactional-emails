@@ -1,11 +1,14 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import Menu from "./views/Menu";
+import menu from "./misc/menu";
 import styles from "./index.module.sass";
 
 export default function App() {
   const [resolution, setResolution] = useState(650);
+  const [iframe, setIframe] = useState(menu[0].links[0].url);
+
   function handleChangeResolution(e) {
     setResolution(~~e.target.value);
   }
@@ -13,7 +16,7 @@ export default function App() {
   return (
     <Router>
       <div className={styles.container}>
-        <Menu />
+        <Menu iframe={iframe} handleIframe={setIframe} menu={menu} />
         <div className={styles.content}>
           <div className={styles.containerEmail}>
             <div>
@@ -31,19 +34,12 @@ export default function App() {
             </div>
           </div>
           <div className={styles.cointainerIframe}>
-            <Route
-              path="/htmls/:source"
-              render={({ match: { params } }) => {
-                return (
-                  <iframe
-                    height="1400"
-                    title="render"
-                    frameBorder="0"
-                    width={`${resolution}px`}
-                    src={`/${params.source}/index.html`}
-                  />
-                );
-              }}
+            <iframe
+              src={iframe}
+              height="1400"
+              title="render"
+              frameBorder="0"
+              width={`${resolution}px`}
             />
           </div>
         </div>
