@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/elektra-transactional-emails/precache-manifest.4b9b466d9eda500d0d8c361cb5b1efcf.js"
+  "/elektra-transactional-emails/precache-manifest.7c73160f80af0cd5bf85195cafba4f70.js"
 );
 
 self.addEventListener('message', (event) => {
