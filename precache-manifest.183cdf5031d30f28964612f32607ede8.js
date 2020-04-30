@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "377e8d17564ae24139c50fbf1422737d",
+    "revision": "bae82e0a066e5fe0b2afd0cb3f56ec2d",
     "url": "/elektra-transactional-emails/index.html"
   },
   {
-    "revision": "5160c66da451b81c7fa9",
+    "revision": "28d95e839faf92acca08",
     "url": "/elektra-transactional-emails/static/css/main.f31e4a71.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5160c66da451b81c7fa9",
-    "url": "/elektra-transactional-emails/static/js/main.beea1dbf.chunk.js"
+    "revision": "28d95e839faf92acca08",
+    "url": "/elektra-transactional-emails/static/js/main.ccbb6d40.chunk.js"
   },
   {
     "revision": "deae9c227d1888109cc9",
