@@ -4,349 +4,401 @@ export default [
     links: [
       {
         name: "Pedido Creado BAZ referenciado tienda ",
-        url: "pedidoCreadoBazTienda",
+        url: "pedidoCreadoBazTienda"
       },
       {
         name: "Pedido Creado TDD/TDC tienda",
-        url: "pedidoCreadoTienda",
+        url: "pedidoCreadoTienda"
       },
       {
         name: "Pedido Creado Crédito Elektra originación con enganche tienda",
-        url: "pedidoConfirmadoTiendaOriginacionCredito",
+        url: "pedidoConfirmadoTiendaOriginacionCredito"
       },
       {
         name: "Pedido Creado recompra Crédito Elektra sin enganche tienda",
-        url: "pedidoConfirmadoTiendaRecompraCreditoSE",
+        url: "pedidoConfirmadoTiendaRecompraCreditoSE"
       },
       {
         name: "Pedido Creado recompra Crédito Elektra con enganche tienda",
-        url: "pedidoConfirmadoTiendaRecompraCreditoCE",
+        url: "pedidoConfirmadoTiendaRecompraCreditoCE"
       },
       {
         name: "Pedido Creado originación Crédito Elektra con enganche tienda",
-        url: "pedidoConfirmadoTiedaCE",
+        url: "pedidoConfirmadoTiedaCE"
       },
       {
         name: "Pedido Creado Mercado Pago tienda",
-        url: "pedidoConfirmadoTiendaMercadoPago",
+        url: "pedidoConfirmadoTiendaMercadoPago"
       },
       {
         name: "Pedido Creado PayPal tienda",
-        url: "pedidoConfirmadoTiendaPaypal",
+        url: "pedidoConfirmadoTiendaPaypal"
       },
       {
         name: "Pedido Creado PayU tienda",
-        url: "pedidoConfirmadoTiendaPayU",
+        url: "pedidoConfirmadoTiendaPayU"
       },
       {
         name: "Pedido Creado App BAZ tienda",
-        url: "pedidoCreadoAppBAZ",
+        url: "pedidoCreadoAppBAZ"
       },
       {
         name: "Pedido Listo para recoger en tienda",
-        url: "pedidoListoEntregaTiendaAppBAZ",
+        url: "pedidoListoEntregaTiendaAppBAZ"
       },
       {
         name: "Pedido Listo para recoger en tienda",
-        url: "pedidoListoEntregaTienda",
+        url: "pedidoListoEntregaTienda"
       },
       {
         name: "Pedido Listo para recoger en tienda",
-        url: "pedidoListoEntregaTiendaEktEnganche",
+        url: "pedidoListoEntregaTiendaEktEnganche"
       },
       {
         name: "Pedido Listo para recoger en tienda",
-        url: "pedidoListoEntregaTiendaCreditoRecompraSE",
+        url: "pedidoListoEntregaTiendaCreditoRecompraSE"
       },
       {
         name: "Pedido Listo para recoger en tienda",
-        url: "pedidoListoEntregaTiendaCreditoRecompraCE",
+        url: "pedidoListoEntregaTiendaCreditoRecompraCE"
       },
       {
         name: "Pedido Listo para recoger en tienda",
-        url: "pedidoListoEntregaTiendaCE",
+        url: "pedidoListoEntregaTiendaCE"
       },
       {
         name: "Pedido Entregado total / Una sola guía o un solo producto",
-        url: "pedidoEntregadoTienda",
+        url: "pedidoEntregadoTienda"
       },
       {
         name: "Pedido Entregado total / Una sola guía o un solo producto",
-        url: "pedidoEntregadoTiendaAppBaz",
+        url: "pedidoEntregadoTiendaAppBaz"
       },
       {
         name: "Pedido Entregado total / Una sola guía o un solo producto",
-        url: "pedidoEntregadoCreditoSE",
+        url: "pedidoEntregadoCreditoSE"
       },
       {
         name: "Pedido Entregado total / Una sola guía o un solo producto",
-        url: "pedidoEntregadoRecompraCreditoSE",
+        url: "pedidoEntregadoRecompraCreditoSE"
       },
       {
         name: "Pedido Entregado total / Una sola guía o un solo producto",
-        url: "pedidoEntregadoRecompraCreditoCE",
+        url: "pedidoEntregadoRecompraCreditoCE"
       },
       {
         name: "Pedido Entregado total / Una sola guía o un solo producto",
-        url: "pedidoEntregadoCreditoCE",
-      },
-    ],
+        url: "pedidoEntregadoCreditoCE"
+      }
+    ]
   },
   {
     name: "CRÉDITO ELEKTRA",
     links: [
       {
+        name: "Domicilio Pedido creado +2 sellers",
+        url: "creditoDomSellersCreado"
+      },
+      {
+        name: "Domicilio Pedido creado 1 seller",
+        url: "creditoDomSellerCreado"
+      },
+      {
+        name: "Domicilio Pedido entregado 1 seller",
+        url: "creditoDomEntregado"
+      },
+      {
+        name: "Domicilio Pedido enviado 1 seller",
+        url: "creditoDomSellerEnviado"
+      },
+      {
+        name: "01-Domicilio PI Pedido creado 1 seller",
+        url: "01-creditoDomPISellerCreado"
+      },
+      {
+        name: "02-Domicilio PI Pedido creado 1 seller",
+        url: "02-creditoDomPISellerCreado"
+      },
+      {
+        name: "Domicilio PI Pedido entregado 1 seller",
+        url: "creditoDomPIEntregado"
+      },
+      {
+        name: "Tienda Pedido creado 1 seller",
+        url: "creditoTiendaCreadoSeller"
+      },
+      {
+        name: "Tienda PI Pedido creado 1 seller",
+        url: "creditoTiendaPICreadoSeller"
+      },
+      {
+        name: "Tienda Pedido entregado 1 seller",
+        url: "creditoTiendaSellerEntregado"
+      },
+      {
+        name: "Tienda Pedido enviado 1 seller",
+        url: "creditoTiendaEnviado"
+      },
+      {
+        name: "Tienda PI Pedido entregado 1 seller",
+        url: "creditoTiendaPISellerentregado"
+      },
+      {
+        name: "Tienda PI Pedido enviado 1 seller",
+        url: "creditoTiendaPIEnviado"
+      },
+      {
         name: "Crédito aprobado",
-        url: "engancheCreditoEktTienda",
+        url: "engancheCreditoEktTienda"
       },
       {
         name: "Pedido cancelado Crédito Elektra Antes de Entrega CE",
-        url: "creditoCanceladoantesdentregaCE",
+        url: "creditoCanceladoantesdentregaCE"
       },
       {
         name: "Pedido cancelado Crédito Elektra Antes de Entrega SE",
-        url: "creditoCanceladoSE",
+        url: "creditoCanceladoSE"
       },
       {
         name: "Pedido cancelado Crédito Elektra Antes de Entrega CE",
-        url: "creditoCanceladoCE",
+        url: "creditoCanceladoCE"
       },
       {
         name: "Pedido cancelado Crédito Elektra sin Abono y Enganche",
-        url: "cancelacionCreditoSASE",
+        url: "cancelacionCreditoSASE"
       },
       {
         name: "Pedido cancelado Crédito Elektra con Abono ",
-        url: "creditoCanceladoCA",
+        url: "creditoCanceladoCA"
       },
       {
         name: "Pedido Cancelado Crédito Elektra con Abono y Enganche",
-        url: "creditoCanceladoCACE",
-      },
-    ],
+        url: "creditoCanceladoCACE"
+      }
+    ]
   },
   {
     name: "ENVIO A DOMICILIO",
     links: [
       {
         name: "Pedido Creado OneClick domicilio",
-        url: "confirmadoDomOneClic",
+        url: "confirmadoDomOneClic"
       },
       {
         name: "Pedido Creado PayPal domicilio",
-        url: "pedidoConfirmadoDomPaypal",
+        url: "pedidoConfirmadoDomPaypal"
       },
       {
         name: "Pedido Creado BAZ referenciado domicilio",
-        url: "pedidoCreadoBazDomRef",
+        url: "pedidoCreadoBazDomRef"
       },
       {
         name: "Pedido Creado Italika TDD/TDC domicilio",
-        url: "pedidoCreadoDomItalikaTDDTDC",
+        url: "pedidoCreadoDomItalikaTDDTDC"
       },
       {
         name: "Pedido Creado TDD/TDC 1 Seller domicilio",
-        url: "pedidoCreadoDomTDDTDCSeller",
+        url: "pedidoCreadoDomTDDTDCSeller"
       },
       {
         name: "Pedido Creado TDD/TDC Varios Sellers domicilio",
-        url: "pedidoConfirmadoDomTDDTDCSellers",
+        url: "pedidoConfirmadoDomTDDTDCSellers"
       },
       {
         name: "Pedido Creado App BAZ domicilio ",
-        url: "pedidoCreadoDomAppBAZ",
+        url: "pedidoCreadoDomAppBAZ"
       },
       {
         name: "Pedido enviado total one click ",
-        url: "enviadoOneClic",
+        url: "enviadoOneClic"
       },
       {
         name: "Pedido enviado parcial 3 productos",
-        url: "enviadoDomPayPal",
+        url: "enviadoDomPayPal"
       },
       {
         name: "Pedido enviado parcial 1 producto",
-        url: "enviadoDomTDDTDCSeller",
+        url: "enviadoDomTDDTDCSeller"
       },
       {
         name: "Pedido enviado parcial 3 productos",
-        url: "pedidoEnviadoBazDomRef",
+        url: "pedidoEnviadoBazDomRef"
       },
       {
         name: "Pedido enviado total",
-        url: "pedidoEnviadoDomitalikaTDDTDC",
+        url: "pedidoEnviadoDomitalikaTDDTDC"
       },
       {
         name: "Pedido enviado parcial 2 productos",
-        url: "enviadoDomTDDTDCVariosSeller",
+        url: "enviadoDomTDDTDCVariosSeller"
       },
       {
         name: "Pedido enviado parcial",
-        url: "pedidoEnviadoAppBAZDom",
+        url: "pedidoEnviadoAppBAZDom"
       },
       {
         name: "Pedido Entregado One click ",
-        url: "pedidoEntregadoOneClic",
+        url: "pedidoEntregadoOneClic"
       },
       {
         name: "Pedido Entregado parcial 3 productos",
-        url: "pedidoEntregadoDomPayPal",
+        url: "pedidoEntregadoDomPayPal"
       },
       {
         name: "Pedido Entregado parcial 3 productos",
-        url: "pedidoEntregadoBazDomRef",
+        url: "pedidoEntregadoBazDomRef"
       },
       {
         name: "Pedido Entregado Italika ",
-        url: "pedidoEntregadoDomitalikaTDDTDC",
+        url: "pedidoEntregadoDomitalikaTDDTDC"
       },
       {
         name: "Pedido Entregado  parcial 1 producto",
-        url: "entregadoDomTDDTDCSeller",
+        url: "entregadoDomTDDTDCSeller"
       },
       {
         name: "Pedido Entregado  parcial 2 productos",
-        url: "entregadoDomTDDTDCVariosSellers",
+        url: "entregadoDomTDDTDCVariosSellers"
       },
       {
         name: "Pedido enviado parcial 3 productos",
-        url: "pedidoEntregadoAppBazDom",
+        url: "pedidoEntregadoAppBazDom"
       },
       {
         name: "Pedido cancelado pago no aprobado",
-        url: "cancelacionPagoConTarjeta",
+        url: "cancelacionPagoConTarjeta"
       },
       {
         name: "Pedido Creado PayPal domicilio",
-        url: "pedidoCreadoPayUDomicilio",
+        url: "pedidoCreadoPayUDomicilio"
       },
       {
         name: "ERROR 404",
-        url: "pedidoEnviadoPayUDomicilio",
+        url: "pedidoEnviadoPayUDomicilio"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "pedidoEntregadoPayUDomicilio",
+        url: "pedidoEntregadoPayUDomicilio"
       },
       {
         name: "Pedido Creado Payu domicilio",
-        url: "aztecaPayConfirmadoDom",
+        url: "aztecaPayConfirmadoDom"
       },
       {
         name: "Pedido enviado parcial 3 productos",
-        url: "aztecaPayEnviadoDom",
+        url: "aztecaPayEnviadoDom"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "aztecaPayEntregadoDom",
+        url: "aztecaPayEntregadoDom"
       },
       {
         name: "Pedido Creado mercado pago domicilio",
-        url: "mercadoPagoCreadoDomicilio",
+        url: "mercadoPagoCreadoDomicilio"
       },
       {
         name: "Pedido enviado parcial 3 productos",
-        url: "mercadoPagoEnviadoDomicilio",
+        url: "mercadoPagoEnviadoDomicilio"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "mercadoPagoEntregadoDomicilio",
+        url: "mercadoPagoEntregadoDomicilio"
       },
       {
         name: "Pedido Creado crédito Elektra recompra S/E a domicilio",
-        url: "creditoRecompraConfirmadoDomicilio",
+        url: "creditoRecompraConfirmadoDomicilio"
       },
       {
         name: "Pedido enviado crédito elektra  C/E",
-        url: "creditoRecompraEnviadoDomicilio",
+        url: "creditoRecompraEnviadoDomicilio"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "creditoRecompraEntregadoDomicilio",
+        url: "creditoRecompraEntregadoDomicilio"
       },
       {
         name: "Pedido Creado crédito Elektra recompra C/E a domicilio",
-        url: "creditoRecompraEngancheConfirmadoDomicilio",
+        url: "creditoRecompraEngancheConfirmadoDomicilio"
       },
       {
         name: "Pedido enviado crédito elektra  C/E",
-        url: "creditoRecompraEngancheEnviadoDomicilio",
+        url: "creditoRecompraEngancheEnviadoDomicilio"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "creditoRecompraEngancheEntregadoDomicilio",
+        url: "creditoRecompraEngancheEntregadoDomicilio"
       },
       {
         name: "Pedido Creado crédito Elektra originación S/E a domicilio",
-        url: "originacionConfirmadoDomicilio",
+        url: "originacionConfirmadoDomicilio"
       },
       {
         name: "Pedido enviado crédito elektra originación S/E",
-        url: "originacionEnviadoDomicilio",
+        url: "originacionEnviadoDomicilio"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "originacionEntregadoDomicilio",
+        url: "originacionEntregadoDomicilio"
       },
       {
         name: "Pedido Creado crédito Elektra  C/E a domicilio",
-        url: "originacionEngancheConfirmadoDomicilio",
+        url: "originacionEngancheConfirmadoDomicilio"
       },
       {
         name: "Pedido enviado crédito elektra  C/E",
-        url: "originacionEngancheEnviadoDomicilio",
+        url: "originacionEngancheEnviadoDomicilio"
       },
       {
         name: "Pedido entregado parcial 3 productos",
-        url: "originacionEngancheEntregadoDomicilio",
+        url: "originacionEngancheEntregadoDomicilio"
       },
       {
         name: "Originación Enganche Referencia a domicilio",
-        url: "originacionEngancheReferenciaDomicilio",
-      },
-    ],
+        url: "originacionEngancheReferenciaDomicilio"
+      }
+    ]
   },
   {
     name: "ARTÍCULO DIGITAL",
     links: [
       {
         name: "Pedido Creado artículo digital",
-        url: "pedidoConfirmadoDigitalTDDTDC",
+        url: "pedidoConfirmadoDigitalTDDTDC"
       },
       {
         name: "Pedido listo artículo digital",
-        url: "pedidoListoDigital",
-      },
-    ],
+        url: "pedidoListoDigital"
+      }
+    ]
   },
   {
     name: "PAGOS REFERENCIADOS",
     links: [
       {
         name: "Pedido cancelado Pago Referenciado",
-        url: "pedidoCanceladoPagoReferenciado",
-      },
-    ],
+        url: "pedidoCanceladoPagoReferenciado"
+      }
+    ]
   },
   {
     name: "Uber",
     links: [
       {
         name: "Uber verde",
-        url: "uberVerde",
+        url: "uberVerde"
       },
       {
         name: "Uber amarillo",
-        url: "uberAmarillo",
+        url: "uberAmarillo"
       },
       {
         name: "Uber gris",
-        url: "uberGris",
+        url: "uberGris"
       },
       {
         name: "Uber negro",
-        url: "uberNegro",
-      },
-    ],
-  },
+        url: "uberNegro"
+      }
+    ]
+  }
 ];
