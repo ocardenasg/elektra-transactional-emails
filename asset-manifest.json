@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/elektra-transactional-emails/static/css/main.f31e4a71.chunk.css",
-    "main.js": "/elektra-transactional-emails/static/js/main.ccbb6d40.chunk.js",
-    "main.js.map": "/elektra-transactional-emails/static/js/main.ccbb6d40.chunk.js.map",
+    "main.js": "/elektra-transactional-emails/static/js/main.36f95b41.chunk.js",
+    "main.js.map": "/elektra-transactional-emails/static/js/main.36f95b41.chunk.js.map",
     "runtime-main.js": "/elektra-transactional-emails/static/js/runtime-main.917ca45e.js",
     "runtime-main.js.map": "/elektra-transactional-emails/static/js/runtime-main.917ca45e.js.map",
     "static/js/2.77a88206.chunk.js": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js",
     "static/js/2.77a88206.chunk.js.map": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js.map",
     "index.html": "/elektra-transactional-emails/index.html",
-    "precache-manifest.183cdf5031d30f28964612f32607ede8.js": "/elektra-transactional-emails/precache-manifest.183cdf5031d30f28964612f32607ede8.js",
+    "precache-manifest.340effb07fe4dfd01f68459852d5424c.js": "/elektra-transactional-emails/precache-manifest.340effb07fe4dfd01f68459852d5424c.js",
     "service-worker.js": "/elektra-transactional-emails/service-worker.js",
     "static/css/main.f31e4a71.chunk.css.map": "/elektra-transactional-emails/static/css/main.f31e4a71.chunk.css.map",
     "static/js/2.77a88206.chunk.js.LICENSE.txt": "/elektra-transactional-emails/static/js/2.77a88206.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.917ca45e.js",
     "static/js/2.77a88206.chunk.js",
     "static/css/main.f31e4a71.chunk.css",
-    "static/js/main.ccbb6d40.chunk.js"
+    "static/js/main.36f95b41.chunk.js"
   ]
 }
