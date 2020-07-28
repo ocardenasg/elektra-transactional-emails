@@ -181,10 +181,6 @@ export default [
     name: "ENVIO A DOMICILIO",
     links: [
       {
-        name: "Pedido Creado OneClick domicilio",
-        url: "confirmadoDomOneClic"
-      },
-      {
         name: "Pedido Creado PayPal domicilio",
         url: "pedidoConfirmadoDomPaypal"
       },
@@ -209,10 +205,6 @@ export default [
         url: "pedidoCreadoDomAppBAZ"
       },
       {
-        name: "Pedido enviado total one click ",
-        url: "enviadoOneClic"
-      },
-      {
         name: "Pedido enviado parcial 3 productos",
         url: "enviadoDomPayPal"
       },
@@ -235,10 +227,6 @@ export default [
       {
         name: "Pedido enviado parcial",
         url: "pedidoEnviadoAppBAZDom"
-      },
-      {
-        name: "Pedido Entregado One click ",
-        url: "pedidoEntregadoOneClic"
       },
       {
         name: "Pedido Entregado parcial 3 productos",
@@ -398,6 +386,23 @@ export default [
       {
         name: "Uber negro",
         url: "uberNegro"
+      }
+    ]
+  },
+  {
+    name: "One Click",
+    links: [
+      {
+        name: "Pedido Confirmado Domicilio OneClick",
+        url: "confirmadoDomOneClick"
+      },
+      {
+        name: "Pedido enviado Domicilio OneClick",
+        url: "enviadoOneClick"
+      },
+      {
+        name: "Pedido Entregado Domicilio OneClick",
+        url: "pedidoEntregadoOneClick"
       }
     ]
   }
